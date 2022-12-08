@@ -1,0 +1,96 @@
+.Global {
+  background-color: #cd6361;
+}
+
+.Assignment {
+  color: white;
+  padding: 2vw;
+  padding-left: 4vw;
+  font-style: italic;
+}
+.header-name {
+  color: white;
+  margin-bottom: 2vw;
+  margin-top: 1vw;
+  margin-right: 2vw;
+  margin-left: 5vw;
+}
+
+.Intro {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  background-color: #995050;
+  color: white;
+  max-width: 60vw;
+  justify-content: center;
+  border-radius: 20px;
+  margin-left: 20vw;
+}
+
+.flex2 {
+  margin-left: 6px;
+}
+
+.Part {
+  background-color: rgb(246, 213, 218);
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  margin: 9vw;
+  margin-top: 6vw;
+  padding: 10px;
+}
+.PartHeader {
+  font-size: 25px;
+  font-weight: 500;
+  color: #723b3b;
+}
+
+.SubHeader {
+  font-size: 19px;
+  font-weight: 450;
+  color: #995050;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  padding-top: 30px;
+}
+
+.PartDescription {
+  margin: 2vw;
+  font-size: 17px;
+  color: #723b3b;
+}
+
+.accessibility {
+  display: flex;
+  margin: 3vw;
+  padding: 10px;
+}
+
+.styleguide {
+  padding-left: 50px;
+}
+
+.oa {
+  display: flex;
+  flex-direction: row;
+}
+
+.computerlofi {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  margin: 10px;
+}
+
+.description {
+  padding: 30px;
+  width: 600px;
+}
+
+.computerhifi {
+  margin: 30px;
+  padding: 50px;
+}

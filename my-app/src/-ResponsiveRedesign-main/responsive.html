@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang='eng'>
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>    
+
+<div class="Global"> 
+<section class="Header">
+    <h1 class="Assignment">Assignment:</h1>
+    <h1 class="header-name">Responsive Redesign</h1>
+  </section>
+  <section class="Introduction">
+    <div class="Intro">
+      <p class="flex1">
+        Why? <br /> <br /> How? <br /> <br /> What? <br /> <br /> My
+        take on it:
+      </p>
+      <p class="flex2">
+        <br />
+        Practice redesigning websites. </br> </br>
+        Choosing an website interface, analyzing its flaws and proposing changes to its design. </br> </br>
+        This project consists on an analysis part and a redesign part. </br> </br>
+        Coming out of this project, I am feeling much more confident in identifying flaws in design </br>
+        and in taking action to make it better. 
+      </p>
+    </div>
+  </section>
+  <section class="Part">
+    <div class="PartHeader"> Part 1: The website and its flaws </div>
+    <div class="SubHeader"> 
+        For this part of the assignment, the goal was to choose the website we were going to redesign 
+        and analyze it based on usability and accessibility </div>
+    <div class="PartDescription">
+        <b> Website: </b> https://www.diagnosticomaipu.com 
+        <br/> <b> What?</b> Argentinian medical center.
+        <br/> <b> Why? </b> I decided on this particular website as I have previously used it and noticed the lack of good design. 
+        <br/> <br/><br/>
+        <b> Figure1: The following screenshot shows the homepage of Diagnostico Maipu, an Argentinian clinic that works as a diagnostic 
+        imaging center as well as a laboratory. Through this website healthcare providers, patients and clients are 
+        supposed to be able to find all the relevant information they need. </b>
+        <img src='screenshot1.png' class="img-fluid" >
+        </br>
+        <br/>
+        <div class="SubHeader"> Usability:</div>
+        <div class="PartDescription"> 
+        From conducting a quick survey, I  know that people who use the website typically want to do 1 of these three things: 
+        <li>schedule an appointment</li>
+        <li> view their diagnostic test results </li>
+         <li> get in contact with someone at the facility.</li>
+        I’m going to be looking at those three things in order to assess Learnability, Efficiency and Memorability. </div>
+        <br/>
+        <b>Learnability: Is it easy to learn how to use? (For new users)</b>
+        <li>First impression: not very easy. </li>
+        <li> First thing that pops up is a slideshow about irrelevant information (for the majority of users)</li>
+        <li> Users have to scan the webpage, easily getting lost with the amount of information that is being absorbed at once. </li>
+        <li>Contact information is nowhere to be found at first glance,  we can find it at the top right of the page where it is barely noticeable.</li>
+<li>Booking an appointment (Turnos Online) and viewing test results (Resultados Online) are in a color that blends in with the background. </li>
+<li> The menu bar has some options that open new pages, some that toggle down and others that send you to a section below on the same page. </li>
+<br/>
+<br/>
+
+<b>Efficiency: Can typical tasks be done quickly? (for frequent users)</b>
+<li> 
+    I would say that the page is definitely easier to navigate if you are a recurring user. </li>
+    <li>  Important things get easier to find.</li>
+    <li>  Annoying to have irrelevant information popping up all the time.</li>
+    <li>  If you want to dive deeper into what type of medical study to book (“Turnos Online”), it already gets messier for choosing from the dropdown menu. 
+       Note: No matter what you click it takes you to the same login window
+    </li>
+    <br/>
+    <br/>
+
+    <b> 
+        Memorability: Is it easy to recall what to do and how? (For casual users)</b>
+        <li>Not hard, but also not simple. </li>
+        <li> As the page organization and features (such as the drop down menu described for efficiency) are not particularly intuitive, it's harder to remember something that was hard to use at first.  </li>
+        <li> Again, the immediate take in of all random information is distracting and might make it harder to recall where the buttons that we need to click are. </li>
+
+        <br/>
+        <div class="SubHeader"> Accessibility:</div>
+        <div class="accessibility"> 
+            <img src="accessibility.png" width="300px">
+            <div class="PartDescription">
+                <b> My findings:</b>
+                58 contrast errors
+                <li> Most relevant type of error.</li> <br/>
+<li>From my comments in the previous section on usability,  we can see I had noted some of the same contrast errors. </li> <br/>
+<li> The most relevant information of the page (Titles, buttons) is barely noticeable in part because it is blending in with the background.</li>
+<br/> <li> Why? Lack of contrast in the colors and size. </li>
+<br/> <li> No image in the whole page has an alternative text</li> <br/>
+<li> Lack of accessibility, there would be no description if the image failed to load. </li> <br/>
+<li> There is lack of consistency with hyperlinks</li> <br/>
+<li> There are images next to each other and text next to each other of which some have urls that they are linked to and others that don’t. And no way of differentiating between them</li>
+
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="Part">
+    <div class="PartHeader"> Part 2: Visual Redesign </div>
+    <br/>
+    <div class="SubHeader"> 
+        Having reflected on the flaws of Diagnostico Maipu's website, the goal for this part of the assignment is to create a proposal for the redesign. It will consist on low and high fidelity prototypes, as well as visual guide. </div>
+        <br/>
+        <br/>
+        <div class="SubHeader"> <b> Low Fidelity Wireframes: </b></div>
+        <div class="PartDescription"> The low fidelity prototypes were made using Balsamiq. As responsiveness is an essential aspect of this assignment, there is one low-fi wireframe for each: computer, tablet and phone. </div>
+        
+        <div class="computerlofi">
+        <img src="balsamiq-computer.png" width="500px" class="computer"> <br/>
+        <div class="description"> <b>Proposal: </b>
+          The main goal with this redesign is to declutter the homepage, to where is much easier to find what you are looking for when entering the website while still clearly conveying Diagnostico Maipu’s mission. 
+          <br/> 
+          <br/> Different ways I am accomplishing is by: 
+          <li>The menu bar now has only one functionality that redirects the user to different pages specific to what they are looking for. </li>
+          <li> Search bar is now accessible at the top.</li>
+          <li> The “book an appointment” and “results” buttons are much more in the center, not blending out with their surroundings. </li>
+          <li> Ribbon at top with space for important announcements.</li>
+          <li> The first thing that appears when you open the page, and what is meant to catch the user’s attention is an image and a description of the company’s mission to provide the best service to patients, connecting them with the best doctors in the field. </li>
+          </div>
+        </div>
+
+
+
+        <div class="computerlofi">
+        <img src="balsamiq-tablet.png" width="400px" class="tablet"> 
+        <div class="description">
+          <b>Tablet view: </b>
+          <li> Keeping almost all of the elements of the computer view, main change is size of font (proportional to the change in size, a bit bigger in fact so that it is still legible). </li>
+          <li>The ‘news’ section now has an image carousel that displays one component at the time, instead of three. </li>
+          <li> Replaced search bubble with the search icon (will open a search bar). </li>
+
+        </div>
+        </div>
+
+        <div class="computerlofi">
+          <img src="balsamiq-phone.png" width="300px" class="phone">
+        <div class="description">
+          <b>Mobile view:  </b>
+<li> The logo and the menu bar are on two different rows. </li>
+<li>The appointment and results button are now stacked. </li>
+<li> Same carousel for the news section, the news that are not being displayed are smaller than the one that is. </li> 
+
+        </div>
+       </div>
+
+        <br/>
+        <br/>
+        <div class="SubHeader"> <b> Visual Design Style Guide: </b></div>
+        <div class="oa">
+        <img src="Styleguide.png" width="500px" class="styleguide">
+        <div class="PartDescription"> The visual style guide has the goal of helping the designer <br/>communicate their ideas to the developer. At the same time,<br/> it was very helpful and efficient having a guide of the colors <br/>
+          and 
+          fonts before starting the high fidelity prototype. </div>
+        </div>
+
+
+<br/>
+<br/>
+          <div class="SubHeader"> <b> High-fidelity prototypes: </b></div>
+
+          <div class="computerlofi">
+            <div class="description"> 
+            <b>Responsive adaptations (Notes for developer): </b>
+            <br/><br/>Menu bar:
+<li>We want to keep all the options on the menu bar as well as the logo. </li>
+<li>Uses flexbox as well (considering hamburger model where he logo is on its own row in mobile)</li>
+<br/>Search bar:
+<li>In laptop: ‘search’ word included</li>
+<li>In tablet and phone: only the search icon to fit in the menu bar.</li>
+<li>On the three views it expands when clicked  to cover the whole menu bar.</li>
+<br/>Font size, Image size, Button size:
+<li>Change between the three screens, getting progressively smaller while still keeping the proportion. </li>
+<li>Font in the buttons will get smaller, size of button will follow the same trend.  </li>
+<br/>Changes with hover/click (user action):
+<li> Items on the menu bar will be underlined and changed to a darker color. </li>
+<li> Buttons will change color and text size increases. </li>
+<li> Search bar expands when clicked,  as explained above.</li>
+<br/>Layout: 
+<li>Buttons will use flexbox: will be in a row for computer and tablet, will compress to a column for the mobile view.</li>
+<li> News section will use a carrousel tho display the blocks with information. The amount of blocks shown will change with the screen.</li>
+</div>
+          <img src="hifi-computer.png" width="500px">
+        </div>
+
+        <div class="computerhifi">
+          <img src="hifi-tablet.png" width="500px">
+          <img src="hifi-phone.png" width="400px">
+      </div>
+
+</section>
+
+
+
+
+
+<section class="Part">
+    <div class="PartHeader"> Part 3: Getting to Work </div>
+    <div class="SubHeader"> In this part of the assignment I got the chance to put my observations and my redesign proposal into action, by making a similar version of the website. </div>
+
+        <div class="PartDescription"> 
+        <b>Note:</b> There are a few elements that I couldn't completely follow the structure proposed in the design. 
+        <br/> They are: the style of the buttons, the moving carrousel, the icons at the top and the fonts. 
+        <br/> There are also no hyperlinks redirecting to other pages.
+        <br/>
+        <br/>
+       <b> You can access the website here: https://happydolphin111.github.io/RedesignedWebsite/ </b>
+</div>
+</section>
+
+<section class="Part">
+    <div class="PartHeader"> Citations </div>
+    <div class="PartDescription"> 
+        Search bar: https://codepen.io/k185/pen/PQajXE 
+    <br/>
+</div>
+</section>
+
+</div>
+</html>

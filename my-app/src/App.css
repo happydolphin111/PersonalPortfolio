@@ -30,12 +30,56 @@
 
 /* My App */
 
+/* Menu Bar */
 .menubar {
   text-align: left;
-  padding: 2vw;
   font-weight: 800;
   font-size: 20;
-  background-color: rgba(57, 38, 49, 0.17);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5.2vw;
+}
+
+.mininame {
+  padding: 2vw;
+  text-align: left;
+  color: rgb(255, 31, 150);
+}
+
+.ProjButton {
+  background-color: transparent;
+  border: 0;
+  font-weight: 800;
+  font-size: 30;
+  transform: Uppercase;
+  height: 5.2vw;
+  margin-right: 0vw;
+  width: 7vw;
+}
+
+.MeButton {
+  background-color: transparent;
+  border: 0;
+  font-weight: 800;
+  font-size: 30;
+  transform: Uppercase;
+  height: 5.2vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  margin: 0;
+  width: 7vw;
+}
+
+.menuinfo {
+  text-align: right;
+  margin-right: 2vw;
+}
+
+.main {
+  margin-top: 17vw;
+  margin-bottom: 17vw;
 }
 
 .MyName {
@@ -60,7 +104,7 @@
   text-align: left;
   font-size: 50px;
   margin-left: 5vw;
-  margin-top: 5vw;
+  margin-top: 15vw;
   font-weight: 800;
 }
 
@@ -74,6 +118,71 @@
 
 .ProjectDisplay {
   display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.Development {
+  width: 60%;
+}
+
+.Iterative {
+  width: 40%;
+}
+
+.Responsive {
+  width: 50%;
+}
+
+.Personas {
+  width: 50%;
+}
+
+.ProjectCard {
+  background-color: rgb(142, 8, 80);
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  color: white;
+  height: 25vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  text-align: left;
+}
+
+.cardTitle {
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana;
+  padding: 1vw;
+}
+
+.bigNumber {
+  font-size: 4vw;
+  font-weight: 800;
+  padding-top: 1vw;
+  padding-left: 0.5vw;
+}
+
+.projectTitle {
+  font-size: 2.9vw;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.projectInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.projBreakdown {
+  width: 20vw;
 }
 
 .info {
@@ -91,4 +200,43 @@
   font-size: 20;
   margin-top: 4vw;
   background-color: rgba(57, 38, 49, 0.17);
+}
+
+/* Bouncing Arrow */
+
+.down-arrow {
+  position: absolute;
+  top: calc(100vh - 110px);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 1.5s infinite;
+  color: rgb(255, 31, 150);
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
 }

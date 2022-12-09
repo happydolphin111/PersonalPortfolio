@@ -104,7 +104,7 @@
   text-align: left;
   font-size: 50px;
   margin-left: 5vw;
-  margin-top: 15vw;
+  margin-top: 10vw;
   font-weight: 800;
 }
 
@@ -145,12 +145,12 @@
 }
 
 .ProjectCard {
-  background-color: rgb(142, 8, 80);
+  background-color: rgba(226, 16, 128, 0.72);
   border-style: solid;
   border-width: 1px;
   border-color: black;
   color: white;
-  height: 25vw;
+  height: 33vw;
   padding-left: 1vw;
   padding-right: 1vw;
   text-align: left;
@@ -185,12 +185,33 @@
   width: 20vw;
 }
 
+.projScreenshot {
+  border-width: 3px;
+  border-color: black;
+}
+
 .info {
   padding-top: 1vw;
   padding-left: 5vw;
   text-align: left;
-  padding-right: 7vw;
+  padding-right: 5vw;
   font-weight: 500;
+}
+
+.personalInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.personalChild1 {
+  width: 57vw;
+  margin-bottom: 17vw;
+  padding-right: 3vw;
+}
+
+.personalChild2 {
+  animation: jumpInfinite 1.5s infinite;
+  margin-left: 7vw;
 }
 
 .contact {

@@ -3,6 +3,10 @@ import './App.css';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import {useRef} from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect,} from "react-router-dom";
+import pic_iterative from './components/Images/iterative.png'
+import pic_responsive from './components/Images/responsive.png'
+import pic_personas from './components/Images/personas.png'
+import pic_heart from './components/Images/myHeart.png'
 
 
 function App() {
@@ -149,7 +153,7 @@ function App() {
 
           <div className='projectInfo'>
             <div className='projBreakdown'> After choosing the startup Jamble, we researched their objectives and designed an app for the user interface together with the user experience. </div>
-            <div className='projScreenshot'> Screenshot</div>
+            <div className='projScreenshot'> <img src={pic_iterative} alt="Iterative Screenshot" width='300vw'/></div>
           </div>
 
           </div>
@@ -163,13 +167,13 @@ function App() {
           <div className="ProjectCard">
 
           <div className='cardTitle'>
-            <div className='projectTitle'> Responsive Redesign  </div>
+            <div className='projectTitle'> Responsive Redesign </div>
             <div className='bigNumber'> 2 </div>
           </div>
 
           <div className='projectInfo'>
             <div className='projBreakdown'> In this project, I chose a website who's interface was lacking some key components and proposed a new responsive design for it. </div>
-            <div className='projScreenshot'> Screenshot</div>
+            <div className='projScreenshot'> <img src={pic_responsive} alt="Responsive Redesign Screenshot" width='500vw'/></div>
           </div>
 
           </div>
@@ -187,7 +191,7 @@ function App() {
           <div className='projectInfo'>
             <div className='projBreakdown'> Here I observed real users interact with a public interface (a pool table) and
             interviewing them about it. From there, using the information collected to build personas and storyboards.</div>
-            <div className='projScreenshot'> Screenshot</div>
+            <div className='projScreenshot'> <img src={pic_personas} alt="Personas and Storyboarding Screenshot" width='400vw'/></div>
           </div>
 
           </div>
@@ -198,18 +202,28 @@ function App() {
 
 
 
-
-
       <div className='ProjectsHeader' ref={ref2}>
        ABOUT ME
       </div>
       <div className="ProjectsSubheader">
         More about the person behind this portfolio
       </div>
-      <div className="info">
-        I am a sophomore at Brown University studying Computer Science and Cognitive Neuroscience. 
-        I have recently discovered a passion for design as a way of approaching problem solving. 
-        The intent with this portfolio is to bring you through my journey of exploring design thinking and desigining experiences for different types of users. Join me! 
+
+
+      <div className="personalInfo">
+
+      <div className="personalChild1">
+          <div className="info">
+            I am a sophomore at Brown University studying Computer Science and Cognitive Neuroscience. 
+            I have recently discovered a passion for design as a way of approaching problem solving. </div>
+          <div className="info"> The intent with this portfolio is to bring you through my journey of exploring design thinking and desigining experiences for different types of users. Join me! </div>
+      </div>
+
+      <div className="personalChild2">
+      <img src={pic_heart} alt="Heart Picture" width='300vw'/>
+      </div>
+
+
       </div>
 
       <div className="contact">
